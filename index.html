@@ -1,535 +1,817 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
 
 <head>
-    <meta charset="utf-8">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Women of Destiny Conference 2026</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Women of Destiny, WODC, Daystar, Women Conference" name="keywords">
-    <meta content="Women of Destiny Conference 2026 - Daystar Women of Destiny Fellowship" name="description">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--Custom CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Plugin CSS-->
+    <link href="css/plugin.css" rel="stylesheet" type="text/css">
 
-    <link href="img/favicon.ico" rel="icon">
-
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <link href="css/style.css" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="fonts/line-icons.css" type="text/css">
 </head>
 
 <body>
-    <div class="top-bar d-none d-md-block">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="top-bar-left">
-                        <div class="text">
-                            <i class="fa fa-phone-alt"></i>
-                            <p>+2349053517216</p>
-                        </div>
-                        <div class="text">
-                            <i class="fa fa-map-marker-alt"></i>
-                            <p>Plot A3c Ikosi Road, Oregun Ikeja</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="top-bar-right">
-                        <div class="social">
-                            <a href="https://chat.whatsapp.com/CV6zkmAysGwAeOItAQd8OU" target="_blank" rel="noopener"><i
-                                    class="fab fa-whatsapp"></i></a>
-                            <a href="https://chat.whatsapp.com/8qbmbJSa0e9InX8CVtzYlb" target="_blank" rel="noopener"><i
-                                    class="fa fa-praying-hands"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
     </div>
+    <!-- Preloader Ends -->
 
-    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">
-                <img src="img/wod-logo.png" alt="Women of Destiny Conference" class="brand-logo">
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    <a href="#home" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">About WOD</a>
-                    <a href="#speakers" class="nav-item nav-link">Speakers</a>
-                    <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
-                    <a href="#media" class="nav-item nav-link">Media</a>
-                    <a href="#contact" class="nav-item nav-link">Contact</a>
-                    <a href="#faq" class="nav-item nav-link">FAQ</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="carousel" id="home">
-        <div class="container-fluid">
-            <div class="owl-carousel">
-                <div class="carousel-item">
-                    <div class="carousel-img">
-                        <img src="img/carousel-1.jpg" alt="Women of Destiny Conference">
-                    </div>
-                    <div class="carousel-text">
-                        <h1>WOMEN OF DESTINY, 2026.</h1>
-                        <p><strong>4TH April | Plot A3c Ikosi Road, Oregun Ikeja.</strong></p>
-                        <p>Countdown to the event</p>
-                        <div class="row justify-content-center" id="countdown"
-                            data-event-date="2026-04-04T10:00:00+01:00">
-                            <div class="col-3 col-sm-2">
-                                <h2 id="countdown-days">00</h2>
-                                <p>Days</p>
-                            </div>
-                            <div class="col-3 col-sm-2">
-                                <h2 id="countdown-hours">00</h2>
-                                <p>Hours</p>
-                            </div>
-                            <div class="col-3 col-sm-2">
-                                <h2 id="countdown-minutes">00</h2>
-                                <p>Minutes</p>
-                            </div>
-                            <div class="col-3 col-sm-2">
-                                <h2 id="countdown-seconds">00</h2>
-                                <p>Seconds</p>
-                            </div>
+    <!-- header starts -->
+    <header class="main_header_area">
+        <!-- Navigation Bar -->
+        <div class="header_menu" id="header_menu">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-flex d-flex align-items-center justify-content-between w-100 pb-2 pt-2">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/wod-logo.png" alt="image">
+                                <img src="images/wod-logo.png" alt="image">
+                            </a>
                         </div>
-                        <div class="carousel-btn">
-                            <a class="btn btn-custom" href="#about">Learn More</a>
-                            <a class="btn btn-custom btn-play" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Promo
-                                Video</a>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="navbar-collapse1 d-flex align-items-center" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav" id="responsive-menu">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#speakers">Speakers</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                                <li><a href="#media">Media</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <div class="register-login">
+                            <a href="https://chat.whatsapp.com/CV6zkmAysGwAeOItAQd8OU" class="nir-btn text-white">Join
+                                WOD <i class="fa fa-angle-right "></i></a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
-                            allow="autoplay"></iframe>
+                        <div id="slicknav-mobile"></div>
                     </div>
-                </div>
-            </div>
+                </div><!-- /.container-fluid -->
+            </nav>
         </div>
-    </div>
+        <!-- Navigation Bar Ends -->
+    </header>
+    <!-- header ends -->
 
-    <div class="about" id="about">
+
+    <!-- banner starts -->
+    <section class="banner pt-10 pb-0 overflow-hidden"
+        style="background-image:url(images/pexels-wendy-wei-1190297.jpg);">
         <div class="container">
+            <div class="banner-in pt-6">
+                <div class="row align-items-end">
+                    <div class="col-lg-7 mb-10">
+                        <div class="banner-content text-lg-start text-center">
+                            <h4 class="theme mb-0">Women of Destiny Conference</h4>
+                            <div class="selector4" style="display: flex; justify-content: center;">
+                                <h1 class="ah-headline white">
+                                    <span>WOMEN OF DESTINY, 2026.</span>
+                                    <span class="ah-words-wrapper white">
+                                        <b class="is-visible textcap">WODC</b>
+                                        <b>WODC</b>
+                                    </span>
+                                </h1>
+                            </div>
+                            <p class="mb-0 white">4TH April | Plot A3c Ikosi Road, Oregun Ikeja.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="banner-image" style="background-image:url(images/manbg.png);">
+                            <img src="images/man4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="color-overlay"></div>
+    </section>
+    <!-- banner ends -->
+
+    <!-- coming counter starts -->
+    <section class="coming-countermain p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-lg-offset-5">
+                    <div class="coming-counter d-md-flex align-items-center justify-content-between p-4 py-5 text-md-start text-center"
+                        data-date="2026-04-04 10:00:00">
+                        <div class="counter-box"><span class="days"></span><br> Days</div>
+                        <div class="counter-box"><span class="hours"></span><br> Hours</div>
+                        <div class="counter-box"><span class="minutes"></span><br> Minutes</div>
+                        <div class="counter-box"><span class="seconds"></span><br> Seconds</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- coming counter Ends -->
+
+    <!-- about-us starts -->
+    <section id="about" class="about-us about-features pt-12 pb-8"
+        style="background-image:url(images/testimonial-1.png);">
+        <div class="container">
+            <div class="about-image-box">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-lg-7 pe-lg-4">
+                        <div class="about-features" style="background-image:url(images/contentbg.png);">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="features-infobox border-all p-5 box-shadow bg-white text-center mb-4">
+                                        <div class="infobox-icon mb-2">
+                                            <i class="fa fa-users fs-1 theme"></i>
+                                        </div>
+                                        <div class="box-body">
+                                            <h4 class="infobox-title">Our Mission</h4>
+                                            <p class="mb-2">To empower Daystar women to discover, develop, release and
+                                                maximize our potentials in God.</p>
+                                            <a href="#contact" class="theme">Enquire <i
+                                                    class="fa fa-angle-right "></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="features-infobox border-all p-5 box-shadow bg-white text-center mb-4">
+                                        <div class="infobox-icon mb-2">
+                                            <i class="fa fa-flag fs-1 theme"></i>
+                                        </div>
+                                        <div class="box-body">
+                                            <h4 class="infobox-title">Our Meetings</h4>
+                                            <p class="mb-2">First Saturday of every month at 10:00 a.m., onsite at Ikosi
+                                                Road, Oregun, and online at times.</p>
+                                            <a href="#faq" class="theme">Learn More <i
+                                                    class="fa fa-angle-right "></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="features-infobox border-all p-5 box-shadow bg-white text-center mb-4">
+                                        <div class="infobox-icon mb-2">
+                                            <i class="fa fa-gear fs-1 theme"></i>
+                                        </div>
+                                        <div class="box-body">
+                                            <h4 class="infobox-title">Join a Unit</h4>
+                                            <p class="mb-2">Every woman in Daystar has a place in WOD, with focused
+                                                units and service teams for all stages of life.</p>
+                                            <a href="#units" class="theme">View Units <i
+                                                    class="fa fa-angle-right "></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ps-lg-4">
+                        <div class="about-content text-center text-lg-start mb-4">
+                            <h4 class="h-title">About WOD</h4>
+                            <div class="selector4" style="display: flex; justify-content: center;">
+                                <h2 class="ah-headline">
+                                    <span>The Women of Destiny</span>
+                                    <span class="ah-words-wrapper white theme">
+                                        <b class="is-visible textcap">Fellowship</b>
+                                        <b>Fellowship</b>
+                                    </span>
+                                </h2>
+                            </div>
+                            <p class="mb-4">The Daystar Women of Destiny Fellowship is a vibrant and enriching
+                                fellowship of focused and remarkable women of God. We join hands to reach women of
+                                different ages and status, and we welcome you to be part of this vision.</p>
+                            <a href="https://chat.whatsapp.com/CV6zkmAysGwAeOItAQd8OU" class="nir-btn">Join WOD Daystar
+                                <i class="fa fa-angle-right "></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-us ends -->
+
+    <!-- about-us starts -->
+    <section id="units" class="about-us about-before pt-12">
+        <div class="container">
+            <div class="about-image-box">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-lg-5 pe-4">
+                        <div class="about-content section-title text-lg-start text-center mb-4">
+                            <h3 class="h-title">Units</h3>
+                            <h4 class="theme">WOD Units & Teams</h4>
+                            <div class="selector4" style="display: flex; justify-content: center;">
+                                <h2 class="ah-headline">
+                                    <span>Every woman has a</span>
+                                    <span class="ah-words-wrapper white theme">
+                                        <b class="is-visible textcap">place</b>
+                                        <b>place</b>
+                                    </span>
+                                </h2>
+                            </div>
+                            <p class="mb-4">Golden Mothers, Princesses, Wise Women, Dorcas Team, Joyful Mothers/Fathers
+                                Forum, Logistics Team, Worship Team, Membership Team, Visitation Team, Publicity Team,
+                                Evangelism Team, Welfare Team, and Prayer Team (Women on the Watch).</p>
+                            <a href="#contact" class="nir-btn">Serve With Us <i class="fa fa-angle-right "></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ps-4">
+                        <div class="about-features" style="background-image:url(images/contentbg.png);">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 mb-4">
+                                    <img src="images/about/busi-3.jpg" alt="Women of Destiny Fellowship">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="images/about/busi-1.jpg" alt="Women of Destiny Conference" class="mb-4">
+                                    <img src="images/about/busi-2.jpg" alt="WOD Fellowship members">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-us ends -->
+
+    <!-- Counter Starts-->
+    <section class="counter-section bg-white pb-6">
+        <div class="container">
+
+            <div class="counter">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="counter-item">
+                            <div class="counter-content text-center">
+                                <h2 class="value mb-0">1</h2>
+                                <span class="m-0">Meeting Monthly</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="counter-item">
+                            <div class="counter-content text-center">
+                                <h2 class="value mb-0">10</h2>
+                                <span class="m-0">AM Start Time</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="counter-item">
+                            <div class="counter-content text-center">
+                                <h2 class="value mb-0 ">50</h2>
+                                <span class="m-0">Golden Mothers Age</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="counter-item">
+                            <div class="counter-content text-center">
+                                <h2 class="value mb-0">12</h2>
+                                <span class="m-0">Core Units & Teams</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Counter ends-->
+
+    <!-- event-schedule starts -->
+    <section class="event-schedule pb-8 about-after">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-4">
+                    <div class="section-title mb-5 text-center text-lg-start">
+                        <h3 class="h-title">Meetings</h3>
+                        <h4 class="theme">WOD Fellowship Rhythm</h4>
+                        <div class="selector4" style="display: flex; justify-content: center;">
+                            <h2 class="ah-headline mb-0">
+                                <span>We gather to grow, serve, and </span>
+                                <span class="ah-words-wrapper white theme">
+                                    <b class="is-visible textcap">transform</b>
+                                    <b>transform</b>
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule-item">
+                <div class="about-image-box bg-white mb-4">
+                    <div class="row">
+                        <div class="col-lg-3 d-flex">
+                            <div class="about-content text-center text-lg-start p-4 py-8 bg-theme w-100">
+                                <small class="white mb-2">Monthly</small>
+                                <h4 class="white mb-0">First Saturday</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 d-flex">
+                            <div class="schedule-content text-lg-start text-center py-4">
+                                <h4 class="mb-1">Onsite & Online Fellowship</h4>
+                                <p class="mb-0">We meet on the first Saturday of every month at 10:00 a.m. at Ikosi
+                                    Road, Oregun, and at selected times online.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image-box bg-white mb-4">
+                    <div class="row">
+                        <div class="col-lg-3 d-flex">
+                            <div class="about-content text-center text-lg-start p-4 py-8 bg-theme3 w-100">
+                                <small class="white mb-2">Service</small>
+                                <h4 class="white mb-0">Join A Unit</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 d-flex">
+                            <div class="schedule-content text-lg-start text-center py-4">
+                                <h4 class="mb-1">Serve With Purpose</h4>
+                                <p class="mb-0">From Prayer Team to Welfare, Membership, Publicity, Worship, and
+                                    Visitation teams, there is a place for every woman in WOD.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event-schedule ends -->
+
+    <!-- our teams starts -->
+    <section id="speakers" class="event-team" style="background-image: url(images/manbg.png);">
+        <div class="container">
+            <div class="section-title mb-5 w-75 mx-auto text-center">
+                <h3 class="h-title">Speakers</h3>
+                <h4 class="theme">Restoration</h4>
+                <div class="selector4" style="display: flex; justify-content: center;">
+                    <h2 class="ah-headline mb-0">
+                        <span>Learn from women raising others through </span>
+                        <span class="ah-words-wrapper white theme">
+                            <b class="is-visible textcap">purpose</b>
+                            <b>purpose</b>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            <div class="team-main">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-list position-relative">
+                            <div class="team-image border-all p-2 bg-white">
+                                <img src="images/team/pna.png" alt="Pastor Nike Adeyemi">
+                            </div>
+                            <div class="team-content text-center p-4">
+                                <h4 class="mb-0 theme">Pastor Nike Adeyemi</h4>
+                                <p class="mb-3 white">Convener, WODC</p>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-list position-relative">
+                            <div class="team-image border-all p-2 bg-white">
+                                <img src="images/team/tosin_sanni.png" alt="Tosin Sanni">
+                            </div>
+                            <div class="team-content text-center p-4">
+                                <h4 class="mb-0 theme">Tosin Sanni</h4>
+                                <p class="mb-3 white">Guest Speaker</p>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="team-list position-relative">
+                            <div class="team-image border-all p-2 bg-white">
+                                <img src="images/team/wura_grant.png" alt="Wura Grant">
+                            </div>
+                            <div class="team-content text-center p-4">
+                                <h4 class="mb-0 theme">Wura Grant</h4>
+                                <p class="mb-3 white">Music Minister</p>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="white-overlay"></div>
+    </section>
+    <!-- our teams Ends -->
+
+    <!-- event-calltoaction starts -->
+    <section class="event-calltoaction pb-0" style="background-image: url(images/pexels-sascha.jpg);">
+        <div class="container">
+            <div class="section-title mb-5 w-60 mx-auto text-center">
+                <h3 class="h-title theme-stroke">Promo</h3>
+                <h4 class="theme">Promo Video</h4>
+                <div class="selector4" style="display: flex; justify-content: center;">
+                    <h2 class="ah-headline mb-0">
+                        <span class="white">Countdown to a transformational </span>
+                        <span class="ah-words-wrapper white theme">
+                            <b class="is-visible textcap">experience</b>
+                            <b>experience</b>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            <div class="video-expo w-75 mx-auto position-relative mb-minus">
+                <div class="ratio ratio-16x9">
+                    <iframe class="w-100 h-100"
+                        src="https://www.youtube.com/embed/FcZvJNQDmAE"
+                        title="Women of Destiny Conference 2026 | Restoration | April 4th, 2026" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="theme-overlay"></div>
+    </section>
+    <!-- event-calltoaction ends -->
+
+    <!-- event-gallery starts -->
+    <section id="media" class="event-gallery pb-0 pt-18" style="background-image: url(images/speaker_bg.png);">
+        <div class="container">
+            <div class="section-title mb-5 w-75 mx-auto text-center">
+                <h3 class="h-title">Media</h3>
+                <h4 class="theme">Photos from WODC 2025</h4>
+                <div class="selector4" style="display: flex; justify-content: center;">
+                    <h2 class="ah-headline mb-0">
+                        <span>Highlights from recent </span>
+                        <span class="ah-words-wrapper white theme">
+                            <b class="is-visible textcap">moments</b>
+                            <b>moments</b>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            <div class="event-gallerystart mb-minus">
+                <div class="row gallery-main">
+                    <div class="col-lg-4 col-md-6 mansonry-item p-2">
+                        <div class="gallery-item">
+                            <div class="gallery-image"><a href="images/blog/blog1.jpg" data-lightbox="gallery"
+                                    data-title="WODC 2025"><img src="images/blog/blog1.jpg" alt="WODC 2025 photo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mansonry-item p-2">
+                        <div class="gallery-item">
+                            <div class="gallery-image"><a href="images/blog/blog2.jpg" data-lightbox="gallery"
+                                    data-title="WODC 2025"><img src="images/blog/blog2.jpg" alt="WODC 2025 photo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mansonry-item p-2">
+                        <div class="gallery-item">
+                            <div class="gallery-image"><a href="images/blog/blog3.jpg" data-lightbox="gallery"
+                                    data-title="WODC 2025"><img src="images/blog/blog3.jpg" alt="WODC 2025 photo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mansonry-item p-2">
+                        <div class="gallery-item">
+                            <div class="gallery-image"><a href="images/blog/blog4.jpg" data-lightbox="gallery"
+                                    data-title="WODC 2025"><img src="images/blog/blog4.jpg" alt="WODC 2025 photo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mansonry-item p-2">
+                        <div class="gallery-item">
+                            <div class="gallery-image"><a href="images/blog/blog3.jpg" data-lightbox="gallery"
+                                    data-title="WODC 2025"><img src="images/blog/blog3.jpg" alt="WODC 2025 photo"></a>
+                                <div class="overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mansonry-item p-2">
+                        <div class="gallery-item">
+                            <div class="gallery-image"><a href="images/blog/blog4.jpg" data-lightbox="gallery"
+                                    data-title="WODC 2025"><img src="images/blog/blog4.jpg" alt="WODC 2025 photo"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testomonial start -->
+    <section id="testimonials" class="event-testimonial pt-18 pb-7 bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-4">
+                    <div class="section-title text-center text-lg-start">
+                        <h3 class="h-title">Testimonial</h3>
+                        <h4 class="theme">Lives Transformed</h4>
+                        <div class="selector4" style="display: flex; justify-content: center;">
+                            <h2 class="ah-headline mb-0">
+                                <span>What women are saying about </span>
+                                <span class="ah-words-wrapper white theme">
+                                    <b class="is-visible textcap">WOD</b>
+                                    <b>WOD</b>
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about-img" data-parallax="scroll" data-image-src="img/about.jpg"></div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="section-header">
-                        <p>About WODC</p>
-                        <h2>The Women of Destiny Fellowship</h2>
+                <div class="col-lg-7 pe-lg-5">
+                    <div class="row review-slider">
+                        <div class="col-sm-4 item">
+                            <div class="testimonial-item bg-white p-5">
+                                <div class="testi-details mb-4">
+                                    <i class="fa fa-quote-left fs-1"></i>
+                                    <p class="m-0">The various programs have prepared me for a fulfilled marital destiny
+                                        I desired for more than 10 years. WOD fellowships opened my eyes to what to do
+                                        and not do for a fulfilled marriage.</p>
+                                </div>
+                                <div class="author-info d-flex align-items-center">
+                                    <img src="images/reviewer/1.jpg" alt="Jedidiah Akinsola">
+                                    <div class="author-title ms-3">
+                                        <h5 class="m-0 theme">Jedidiah Akinsola</h5>
+                                        <span>WOD Member</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 item">
+                            <div class="testimonial-item bg-white p-5">
+                                <div class="testi-details mb-4">
+                                    <i class="fa fa-quote-left me-2 fs-1"></i>
+                                    <p class="m-0">I have met many women who mentored me directly and indirectly. The
+                                        fellowship has helped my marriage, relationships, finance and parenting, and
+                                        helped me discover purpose with a positive mindset.</p>
+                                </div>
+                                <div class="author-info d-flex align-items-center">
+                                    <img src="images/reviewer/2.jpg" alt="Dolly Oas">
+                                    <div class="author-title ms-3">
+                                        <h5 class="m-0 theme">Dolly Oas</h5>
+                                        <span>WOD Member</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="about-tab">
-                        <ul class="nav nav-pills nav-justified">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="pill" href="#tab-content-1">Fellowship</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="pill" href="#tab-content-3">Meetings</a>
-                            </li>
+                </div>
+                <div class="col-lg-5 ps-lg-5">
+                    <div class="testimonial-image">
+                        <img src="images/testi-image.png" alt="Women of Destiny testimonials" class="opacity-50">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial ends -->
+
+    <!-- faq-main Start -->
+    <section id="faq" class="faq-main pt-8 pb-8">
+        <div class="container">
+            <div class="faq-accordian">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 mb-4">
+                        <div class="section-title text-center text-lg-start mb-5">
+                            <h3 class="h-title">FAQ</h3>
+                            <h4 class="theme">General Questions</h4>
+                            <div class="selector4 justify-content-lg-between justify-content-center"
+                                style="display: flex;">
+                                <h2 class="ah-headline mb-0">
+                                    <span>Frequently Asked </span>
+                                    <span class="ah-words-wrapper white theme">
+                                        <b class="is-visible textcap">Questions</b>
+                                        <b>Questions</b>
+                                    </span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="accrodion-grp faq-accrodion" data-grp-name="faq-accrodion1">
+                            <div class="accrodion active">
+                                <div class="accrodion-title">
+                                    <h6>Who can attend?</h6>
+                                </div>
+                                <div class="accrodion-content" style="display: block;">
+                                    <div class="inner">
+                                        <p>Every woman, regardless of age, background, or stage of life.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h6>Is it physical or online?</h6>
+                                </div>
+                                <div class="accrodion-content" style="display: none;">
+                                    <div class="inner">
+                                        <p>Both. Attend in person or join virtually from anywhere.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h6>What makes WODC different?</h6>
+                                </div>
+                                <div class="accrodion-content" style="display: none;">
+                                    <div class="inner">
+                                        <p>It is not just a conference. It is a transformational experience rooted in
+                                            purpose, identity, and faith.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq-main Ends -->
+
+    <!-- event-contact starts -->
+    <section id="contact" class="event-contact bg-grey pb-8">
+        <div class="container">
+            <div class="event-contact-main">
+                <div class="row align-items-end">
+                    <div class="col-lg-6 pe-lg-4 mb-4">
+                        <div class="section-title mb-5 text-center text-lg-start">
+                            <h3 class="h-title">Contact</h3>
+                            <h4 class="theme">Enquire, kindly reach out to us</h4>
+                            <div class="selector4" style="display: flex; justify-content: center;">
+                                <h2 class="ah-headline mb-0">
+                                    <span>Reach us through call, chat, or </span>
+                                    <span class="ah-words-wrapper white theme">
+                                        <b class="is-visible textcap">WhatsApp</b>
+                                        <b>WhatsApp</b>
+                                    </span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="event-expo-item mb-4">
+                            <div class="row align-items-center border-all m-0">
+                                <div class="col-lg-3 d-flex bg-theme p-4 py-5">
+                                    <div class="expo-icon text-center w-100"><i class="fa fa-phone white fs-1"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 p-4 text-center text-lg-start">
+                                    <h5 class="mb-1">WOD Contact Number</h5>
+                                    <p class="mb-0">+2349053517216 | +2348023682444</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-expo-item mb-4">
+                            <div class="row align-items-center border-all m-0">
+                                <div class="col-lg-3 d-flex bg-theme p-4 py-5">
+                                    <div class="expo-icon text-center w-100"><i class="fa fa-comments white fs-1"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 p-4 text-center text-lg-start">
+                                    <h5 class="mb-1">Join WOD Daystar</h5>
+                                    <p class="mb-0"><a href="https://chat.whatsapp.com/CV6zkmAysGwAeOItAQd8OU">Official
+                                            members WhatsApp group</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-expo-item">
+                            <div class="row align-items-center border-all m-0">
+                                <div class="col-lg-3 d-flex bg-theme p-4 py-5">
+                                    <div class="expo-icon text-center w-100"><i
+                                            class="fa fa-praying-hands white fs-1"></i></div>
+                                </div>
+                                <div class="col-lg-9 p-4 text-center text-lg-start">
+                                    <h5 class="mb-1">WOD War Room</h5>
+                                    <p class="mb-0"><a href="https://chat.whatsapp.com/8qbmbJSa0e9InX8CVtzYlb">Prayer
+                                            and intercessory WhatsApp group</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-lg-4 mb-4">
+                        <div class="map">
+                            <div style="width: 100%">
+                                <iframe height="500" style="filter: grayscale(1);"
+                                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Plot%20A3c%20Ikosi%20Road%20Oregun%20Ikeja&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event-contact ends -->
+
+    <!-- footer starts -->
+    <footer class="pt-12 pb-7" style="background-image: url(images/pexels-sascha.jpg);">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5 pe-lg-4">
+                    <div class="footer-about">
+                        <img src="images/wod-logo.png" alt="">
+                        <p class="mt-3 mb-3 white">The Daystar Women of Destiny Fellowship is a vibrant fellowship of
+                            focused and remarkable women of God, committed to purpose, growth, and impact.</p>
+
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <div class="footer-links">
+                        <h4 class="white mb-4">Quick Link</h4>
+                        <ul class="list">
+                            <li class="pb-2"><a href="#about">About WOD</a></li>
+                            <li class="pb-2"><a href="#units">Units</a></li>
+                            <li class="pb-2"><a href="#speakers">Speakers</a></li>
+                            <li class="pb-2"><a href="#media">Media</a></li>
+                            <li class="pb-2"><a href="#faq">FAQ</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
-
-                        <div class="tab-content">
-                            <div id="tab-content-1" class="container tab-pane active">
-                                The Daystar Women of Destiny Fellowship is a vibrant and enriching fellowship of focused
-                                and remarkable women of God. Every woman in Daystar has a place in the Women of Destiny
-                                (WOD) fellowship.
-                            </div>
-                            <div id="tab-content-2" class="container tab-pane fade">
-                                To empower Daystar women to discover, develop, release and maximize our potentials in
-                                God. WOD has different groups and sub-units that reach out to women of different ages
-                                and status.
-                            </div>
-                            <div id="tab-content-3" class="container tab-pane fade">
-                                We meet on the first Saturday of every month at 10:00 a.m. We meet on-site at Ikosi
-                                Road, Oregun, and sometimes we meet online.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="footer-links">
+                        <h4 class="white mb-4">Get In Touch</h4>
+                        <p class="mb-3">Plot A3c Ikosi Road, Oregun Ikeja.</p>
+                        <div class="footer-contact d-flex align-items-center mb-3">
+                            <i class="fa fa-phone white fs-4"></i>
+                            <div class="footer-contact-content ps-3">
+                                <h6 class="white mb-0">+2349053517216</h6>
+                                <small class="white">For Information</small>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="service">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Our Units</p>
-                <h2>Different units and teams in WOD</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Golden Mothers</h3>
-                            <p>For women aged 50 and above.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Princesses</h3>
-                            <p>Encouraging and equipping single women.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Wise Women</h3>
-                            <p>For widows who are older women.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Dorcas Team</h3>
-                            <p>Ministers to and serves younger widows.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Joyful Mothers/Fathers Forum</h3>
-                            <p>For waiting and pregnant mothers.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Logistics Team</h3>
-                            <p>Ushering, protocol and registration support.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Worship Team</h3>
-                            <p>WOD worship leaders.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Membership Team</h3>
-                            <p>Welcome, follow-up and integration.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Visitation Team</h3>
-                            <p>Member visitation and care.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Publicity Team</h3>
-                            <p>Promotion of events and meetings.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Evangelism Team</h3>
-                            <p>Outreach and prayers for souls and women.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Welfare & Prayer Teams</h3>
-                            <p>Social care and intercession through WOD War Room.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="team" id="speakers">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Speakers</p>
-                <h2>Restoration</h2>
-            </div>
-            <div class="text-center mb-5">
-                Learn from women who have walked the path, broken barriers, and are committed to raising others.
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img"><img src="img/team-1.jpg" alt="Pastor Nike Adeyemi"></div>
-                        <div class="team-text">
-                            <h2>Pastor Nike Adeyemi</h2>
-                            <p>Convener, WODC</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img"><img src="img/team-2.jpg" alt="Tosin Sanni"></div>
-                        <div class="team-text">
-                            <h2>Tosin Sanni</h2>
-                            <p>Guest Speaker</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img"><img src="img/team-3.jpg" alt="Wura Grant"></div>
-                        <div class="team-text">
-                            <h2>Wura Grant</h2>
-                            <p>Music Minister</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="testimonial" id="testimonial">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Testimonial</p>
-                <h2>Stories from women in WOD</h2>
-            </div>
-            <div class="owl-carousel testimonials-carousel">
-                <div class="testimonial-item">
-                    <div class="testimonial-profile">
-                        <img src="img/testimonial-1.jpg" alt="Jedidiah Akinsola">
-                        <div class="testimonial-name">
-                            <h3>Jedidiah Akinsola</h3>
-                            <p>WOD Member</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-text">
-                        <p>
-                            WOD programs prepared me for a fulfilled marital destiny after years of waiting. The
-                            fellowships opened my eyes to what to do and what to avoid, and the yearly conference
-                            birthed fresh hopes and dreams in my heart.
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-profile">
-                        <img src="img/testimonial-2.jpg" alt="Dolly Oas">
-                        <div class="testimonial-name">
-                            <h3>Dolly Oas</h3>
-                            <p>WOD Member</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-text">
-                        <p>
-                            Through WOD meetings I found mentors and principles that have helped my marriage,
-                            relationships, finances and parenting. WODC has helped me discover purpose and sustain a
-                            positive mindset.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="blog" id="media">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Media</p>
-                <h2>Photos from WODC 2025</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="blog-item">
-                        <div class="blog-img"><img src="img/blog-1.jpg" alt="WODC Media"></div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item">
-                        <div class="blog-img"><img src="img/blog-2.jpg" alt="WODC Media"></div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item">
-                        <div class="blog-img"><img src="img/blog-3.jpg" alt="WODC Media"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="contact" id="contact">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Contact</p>
-                <h2>Enquire, kindly reach out to us</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <div class="event-content">
-                            <div class="event-text">
-                                <h3>WOD Contact Number</h3>
-                                <p><strong>+2349053517216</strong></p>
-                                <h3>Sis Nkechi</h3>
-                                <p><strong>+2348023682444</strong></p>
-                                <p>For enquiry: Call/Text/Chat Joy: <strong>+2349053517216</strong></p>
+                        <div class="footer-contact d-flex align-items-center">
+                            <i class="fa fa-phone white fs-4"></i>
+                            <div class="footer-contact-content ps-3">
+                                <h6 class="white mb-0">+2348023682444</h6>
+                                <small class="white">Sis Nkechi</small>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <div class="event-content">
-                            <div class="event-text">
-                                <h3>Join our WhatsApp Groups</h3>
-                                <p><a class="btn btn-custom" href="https://chat.whatsapp.com/CV6zkmAysGwAeOItAQd8OU"
-                                        target="_blank" rel="noopener">Join WOD Daystar Group</a></p>
-                                <p>The WOD Prayer room is tagged “WOD War Room.”</p>
-                                <p><a class="btn btn-custom" href="https://chat.whatsapp.com/8qbmbJSa0e9InX8CVtzYlb"
-                                        target="_blank" rel="noopener">Join WOD War Room</a></p>
-                            </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <div class="footer-links">
+                        <h4 class="white mb-4">Community Links</h4>
+                        <div class="newsletter-form ">
+                            <p class="mb-3">Join our official WhatsApp communities.</p>
+                            <a href="https://chat.whatsapp.com/CV6zkmAysGwAeOItAQd8OU"
+                                class="nir-btn w-100 mb-2 text-center">Join WOD Daystar</a>
+                            <a href="https://chat.whatsapp.com/8qbmbJSa0e9InX8CVtzYlb"
+                                class="nir-btn w-100 text-center">Join WOD War Room</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="service" id="faq">
+        <div class="theme-overlay opacity-90"></div>
+    </footer>
+    <div class="footer-copyright bg-theme1">
         <div class="container">
-            <div class="section-header text-center">
-                <p>FAQ</p>
-                <h2>Frequently asked questions</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Who can attend?</h3>
-                            <p>Every woman, regardless of age, background, or stage of life.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>Is it physical or online?</h3>
-                            <p>Both. Attend in person or join virtually from anywhere.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-text">
-                            <h3>What makes WODC different?</h3>
-                            <p>It is a transformational experience rooted in purpose, identity, and faith.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="m-0 white text-center py-3">Copyright ©2026 Women of Destiny Conference. All Rights Reserved.</p>
         </div>
     </div>
+    <!-- footer ends -->
 
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-contact">
-                        <h2>Conference Venue</h2>
-                        <p><i class="fa fa-map-marker-alt"></i>Plot A3c Ikosi Road, Oregun Ikeja</p>
-                        <p><i class="fa fa-phone-alt"></i>+2349053517216</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-link">
-                        <h2>Quick Links</h2>
-                        <a href="#about">About WOD</a>
-                        <a href="#speakers">Speakers</a>
-                        <a href="#media">Media</a>
-                        <a href="#contact">Contact</a>
-                        <a href="#faq">FAQ</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-contact">
-                        <h2>Need Help?</h2>
-                        <p><i class="fa fa-phone-alt"></i>Joy: +2349053517216</p>
-                        <p><i class="fa fa-phone-alt"></i>Sis Nkechi: +2348023682444</p>
-                        <div class="footer-social">
-                            <a class="btn btn-custom" href="https://chat.whatsapp.com/CV6zkmAysGwAeOItAQd8OU"
-                                target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
-                            <a class="btn btn-custom" href="https://chat.whatsapp.com/8qbmbJSa0e9InX8CVtzYlb"
-                                target="_blank" rel="noopener"><i class="fa fa-praying-hands"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container copyright">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>&copy; <a href="#">Women of Destiny Conference</a>, All Right Reserved.</p>
-                </div>
-            </div>
-        </div>
+    <!-- Back to top start -->
+    <div id="back-to-top">
+        <a href="#"></a>
+    </div>
+    <!-- Back to top ends -->
+
+    <!-- search popup -->
+    <div id="search1">
+        <button type="button" class="close">×</button>
+        <form>
+            <input type="search" value="" placeholder="type keyword(s) here" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
     </div>
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <div id="loader" class="show">
-        <div class="loader"></div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/parallax/parallax.min.js"></script>
-
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <!-- *Scripts* -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/custom-nav.js"></script>
 </body>
 
 </html>
