@@ -2266,13 +2266,17 @@ a:focus,
 }
 
 .navbar,
-.navbar.nav-sticky,
 .page .navbar {
-  background: linear-gradient(
-    90deg,
-    var(--daystar-blue),
-    var(--daystar-purple)
-  ) !important;
+  background: transparent !important;
+}
+
+.navbar.nav-sticky,
+.page .navbar.nav-sticky {
+  background: rgba(18, 35, 109, 0.78) !important;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 6px 20px rgba(20, 18, 52, 0.18);
 }
 
 .top-bar {
